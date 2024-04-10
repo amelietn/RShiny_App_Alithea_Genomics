@@ -26,12 +26,15 @@ biomaRt 2.58.2
 DT 0.33
 
 
-Download both count matrices tech1 and tech 2 : ........link......
+Download both count matrices tech1 and tech 2 : 
 
+[Count Matrix1 ](count_mat_tech1.txt)
+
+[Count Matrix2 ](count_mat_tech2.txt)
 
 ## Usage
 
-The easiest way to open the app is to open the app.R document and click "Run App".
+The easiest way to open the app is to open the app.R in RStudio document and click "Run App".
 
 There is a total of four tabs on the left, each displaying different results. 
 
