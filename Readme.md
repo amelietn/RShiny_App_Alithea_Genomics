@@ -49,6 +49,24 @@ The second tab, named "Technology Analysis", contains information about the sequ
 
 The third one is "Correlation Heatmaps" and contains the second part of the analysis, as well as the hypothesis of which matrix corresponds to which technology (BRB-seq and DRUG-seq). 
 
-Finally, the last tab displays all the plots and results of the Differential Expression analysis, the PCA and the hypothesis of which condition (A or B) corresponds to the TGFB-treated Huh7 cells. The plots usually take some time (~ one minute) to appear (the time it takes R to compute the differential expression analysis).
+Finally, the last tab displays all the plots and results of the Differential Expression analysis, the PCA and the hypothesis of which condition (A or B) corresponds to the TGFB-treated Huh7 cells. **The plots usually take some time (~ one minute) to appear (the time it takes R to compute the differential expression analysis).**
+
+
+## Supplementary material : Expected Plots
+
+Here are the plots you are expected to see on the app :
+
+[Correlation_Heatmaps.pdf](https://github.com/amelietn/RShiny_App_Alithea_Genomics/files/14945230/Correlation_Heatmaps.pdf)
+
+[Heatmaps_top50.pdf](https://github.com/amelietn/RShiny_App_Alithea_Genomics/files/14945234/Heatmaps_top50.pdf)
+
+[PCA_Tech1.pdf](https://github.com/amelietn/RShiny_App_Alithea_Genomics/files/14945261/PCA_Tech1.pdf)
+
+[PCA_Tech2.pdf](https://github.com/amelietn/RShiny_App_Alithea_Genomics/files/14945264/PCA_Tech2.pdf)
+
+[PCA_Tech1_Tech2.pdf](https://github.com/amelietn/RShiny_App_Alithea_Genomics/files/14945268/PCA_Tech1_Tech2.pdf)
+
+
+
 
 
