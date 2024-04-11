@@ -15,18 +15,27 @@ install.packages(c("shiny","shinydashboard", "reshape2", "ggplot2","pheatmap","R
 ````
 
 These libraries were used in version :
-shiny 1.8.1.1
+
+shiny 1.8.1.1 
+
 shinydashboard 0.7.2
+
 reshape2 1.4.4
+
 ggplot2 3.5.0
+
 pheatmap 1.0.12
+
 RColorBrewer 1.1.3
+
 DESeq2 1.42.1
+
 biomaRt 2.58.2
+
 DT 0.33
 
 
-Download both count matrices tech1 and tech 2 : 
+To download both count matrices tech1 and tech 2 : 
 
 [Count Matrix1 ](Application/count_mat_tech1.txt)
 
