@@ -2,7 +2,7 @@
 
 Two count matrices generated using BRB-seq and DRUG-seq technologies are given. The goal is to perform a comprehensive analysis, and to identify which of the matrices, tech1 or tech2, corresponds to BRB-seq or DRUG-seq. Additionally, we would like to determine which condition, referred to as ‘ConditionA’ or ‘ConditionB’, corresponds to the Huh7 cells treated with a TGFB1 activator.
 
-Tech1 ([Count Matrix1 ](count_mat_tech1.txt)) contains 4 replicates per condition (A, B) and Tech2 ([Count Matrix2 ](count_mat_tech2.txt)) contains 24 replicates per condition. For both of the matrices, the row names are ENSEMBL gene IDs, and the columns are the sample names (replicate number and condition). This R shiny app allows to display the results obtained from the analysis of these two count matrices.
+Tech1 ([Count Matrix1 ](Application/count_mat_tech1.txt)) contains 4 replicates per condition (A, B) and Tech2 ([Count Matrix2 ](Application/count_mat_tech2.txt)) contains 24 replicates per condition. For both of the matrices, the row names are ENSEMBL gene IDs, and the columns are the sample names (replicate number and condition). This R shiny app allows to display the results obtained from the analysis of these two count matrices.
 
 ## Installation
 
@@ -28,13 +28,13 @@ DT 0.33
 
 Download both count matrices tech1 and tech 2 : 
 
-[Count Matrix1 ](count_mat_tech1.txt)
+[Count Matrix1 ](Application/count_mat_tech1.txt)
 
-[Count Matrix2 ](count_mat_tech2.txt)
+[Count Matrix2 ](Application/count_mat_tech2.txt)
 
 ## Usage
 
-The easiest way to open the app is to open the app.R in RStudio document and click "Run App". Make sure to download [Count Matrix1 ](count_mat_tech1.txt) and [Count Matrix2 ](count_mat_tech2.txt) before running app.R, ideally in the same folder (if not, you might need to change the path to the files when loading the data :
+The easiest way to open the app is to "Run App" (for app.R) in RStudio. Make sure to download the folder [Application](Application) containing [Count Matrix1 ](Application/count_mat_tech1.txt), [Count Matrix2 ](Application/count_mat_tech2.txt) and [app.R](Application/app.R). If the files are not in the same folder, you might need to change the path to the files when loading the data :
 
 ```R
 data1 <- as.matrix(read.csv("/path/to/your/directory/with/count_mat_tech1.txt", header = TRUE, row.names = 1))
