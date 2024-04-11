@@ -2,7 +2,7 @@
 
 Two count matrices generated using BRB-seq and DRUG-seq technologies are given. The goal is to perform a comprehensive analysis, and to identify which of the matrices, tech1 or tech2, corresponds to BRB-seq or DRUG-seq. Additionally, we would like to determine which condition, referred to as ‘ConditionA’ or ‘ConditionB’, corresponds to the Huh7 cells treated with a TGFB1 activator.
 
-Tech1 (count_mat_tech1.txt) contains 4 replicates per condition (A, B) and Tech2 (count_mat_tech2.txt) contains 24 replicates per condition. For both of the matrices, the row names are ENSEMBL gene IDs, and the columns are the sample names (replicate number and condition). This R shiny app allows to display the results obtained from the analysis of these two count matrices.
+Tech1 ([Count Matrix1 ](count_mat_tech1.txt)) contains 4 replicates per condition (A, B) and Tech2 ([Count Matrix2 ](count_mat_tech2.txt)) contains 24 replicates per condition. For both of the matrices, the row names are ENSEMBL gene IDs, and the columns are the sample names (replicate number and condition). This R shiny app allows to display the results obtained from the analysis of these two count matrices.
 
 ## Installation
 
