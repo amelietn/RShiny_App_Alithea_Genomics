@@ -34,7 +34,7 @@ Download both count matrices tech1 and tech 2 :
 
 ## Usage
 
-The easiest way to open the app is to "Run App" (for app.R) in RStudio. Make sure to download the folder [Application](Application) containing [Count Matrix1 ](Application/count_mat_tech1.txt), [Count Matrix2 ](Application/count_mat_tech2.txt) and [app.R](Application/app.R). If the files are not in the same folder, you might need to change the path to the files when loading the data :
+The easiest way to open the app is to "Run App" (for app.R) in RStudio. Make sure to download the folder [Application](Application) containing [Count Matrix1 ](Application/count_mat_tech1.txt), [Count Matrix2 ](Application/count_mat_tech2.txt) and [app.R](Application/app.R) (you can directly download the Application.zip). If the files are not in the same folder, you might need to change the path to the files when loading the data :
 
 ```R
 data1 <- as.matrix(read.csv("/path/to/your/directory/with/count_mat_tech1.txt", header = TRUE, row.names = 1))
